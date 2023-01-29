@@ -51,23 +51,18 @@ ul {
   display: flex;
   padding: 8px;
   justify-content: space-between;
-  align-items: center;
 }
 
-.header-left {
-  display: flex;
-  justify-content: flex-start;
-  gap: 18px;
-}
-
+.header-left,
 .header-right {
   display: flex;
-  justify-content: flex-end;
-  gap: 18px;
+  align-items: center;
+  gap: 16px;
 }
 
 .links {
   display: flex;
-  gap: 18px;
+  gap: 16px;
   padding: 0;
+  margin: 0;
 }
