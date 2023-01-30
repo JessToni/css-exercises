@@ -25,14 +25,8 @@ img {
   background: #eee;
 }
 
-div {
+body {
   text-align: center;
-}
-
-.title,
-.flower-vase {
-  display: flex;
-  justify-content: center;
 }
 
 .title {
@@ -40,8 +34,8 @@ div {
 }
 
 .flower-vase {
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
   gap: 52px;
 }
 
@@ -49,8 +43,5 @@ div {
 .flower-2,
 .flower-3,
 .flower-4 {
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 200px;
 }
