@@ -65,14 +65,18 @@ button.cancel {
   color: royalblue;
 }
 
+.modal,
+.head-left,
+.head,
+.text,
+.buttons
 .header {
-  font-weight: bold;
-  font-size: 20px;
+  display: flex;
 }
 
-.head-left,
-.head {
-  display: flex;
+.header {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .head {
@@ -83,17 +87,21 @@ button.cancel {
   gap: 15px;
 }
 
+.icon {
+  flex-shrink: 0;
+}
+
 .modal {
   padding: 15px;
+  flex-direction: column;
 }
 
 .text,
 .buttons {
-  display: flex;
   margin-left: 57px;
 }
 
 .buttons {
   margin-top: 15px;
+  gap: 8px;
 }
-
