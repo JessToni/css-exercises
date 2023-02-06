@@ -26,3 +26,25 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: stretch;
+}
+
+.card {
+  display: flex;
+  width: 40%;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
