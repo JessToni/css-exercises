@@ -30,21 +30,34 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.content,
+.sidebar,
+.cards,
+.card {
+  display: flex;
 }
 
 .sidebar {
-  display: flex;
-  justify-content: stretch;
+  flex-shrink: 0;
+  min-width: 300px;
+  min-height: 100%;
+}
+
+.cards {
+  height: 100%;
+  padding: 32px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 
 .card {
-  display: flex;
-  width: 40%;
-}
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
+  max-width: 300px;
+  max-height: 700px;
 }
